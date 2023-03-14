@@ -6,6 +6,7 @@ all: Fun_1.o Fun_2.o main.o
 main.o: main.c
 	gcc -c main.c -I ./
 
+
 Fun_1.o: Fun_1.c
 	gcc -c Fun_1.c -I ./
 
